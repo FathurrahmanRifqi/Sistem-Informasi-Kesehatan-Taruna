@@ -1,0 +1,143 @@
+CRITICAL - 2022-01-26 19:44:00 --> Undefined array key "npm"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Auth.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-26 19:44:59 --> Not unique table/alias: 'users'
+CRITICAL - 2022-01-26 19:44:59 --> Not unique table/alias: 'users'
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#8 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-26 19:45:21 --> Call to undefined function App\Controllers\row_array()
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-26 19:46:25 --> Undefined array key "npm"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Auth.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 19:47:07 --> Undefined array key "npm"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Auth.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 19:47:48 --> Call to undefined method App\Models\LoginModel::login_role
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Auth.php(29): CodeIgniter\Model->__call('login_role', Array)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-26 19:48:06 --> Not unique table/alias: 'users'
+CRITICAL - 2022-01-26 19:48:06 --> Not unique table/alias: 'users'
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\LoginModel.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Auth.php(29): App\Models\LoginModel->login_role(Array)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#9 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-26 19:54:04 --> Undefined array key "npm"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Auth.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 19:55:56 --> Undefined array key "npm"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Auth.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 19:58:03 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getRowArray
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\LoginModel.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Auth.php(29): App\Models\LoginModel->loginRole(Array)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-26 19:58:10 --> Undefined array key "user_email"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Auth.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 19:58:26 --> Invalid file: success.php
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('success.php')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Common.php(1089): CodeIgniter\View\View->render('success', Array, true)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Auth.php(42): view('success')
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-26 20:12:52 --> syntax error, unexpected token "echo", expecting ";"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/logout')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('auth/logout')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 20:12:59 --> syntax error, unexpected token "echo", expecting ";"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/logout')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('auth/logout')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 20:17:25 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('auth')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 21:25:32 --> Undefined property: App\Controllers\Auth::$output
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Auth.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->logout()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-26 22:03:21 --> Table 'sistemkesehatantaruna.status' doesn't exist
+CRITICAL - 2022-01-26 22:03:21 --> Table 'sistemkesehatantaruna.status' doesn't exist
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\UsersModel.php(14): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Auth.php(45): App\Models\UsersModel->getUserRole(Array)
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#8 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

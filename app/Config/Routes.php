@@ -32,6 +32,13 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('already_healthy/(:num)','Home::already_healthy/$1');
+$routes->post('choose_isoman','Home::choose_isoman');
+
+$routes->get('login','Auth::index');
+$routes->post('do_login','Auth::login');
+
+$routes->post('add_keluhan','Keluhan::add_keluhan');
 
 /*
  * --------------------------------------------------------------------
