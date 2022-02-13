@@ -1,0 +1,18 @@
+CRITICAL - 2022-02-01 00:21:22 --> Undefined property: App\Controllers\Home::$load
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-01 00:22:56 --> Undefined variable $master
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Views\signin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\Common.php(1089): CodeIgniter\View\View->render('signin', Array, true)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Home.php(57): view('signin', Array)
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,722 @@
+CRITICAL - 2022-02-12 01:21:48 --> Undefined array key "id_penanganan"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Views\data_keluhan.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 109)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\Common.php(1089): CodeIgniter\View\View->render('data_keluhan', Array, true)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Keluhan.php(65): view('data_keluhan', Array)
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Keluhan->data_keluhan()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluhan))
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 01:36:05 --> Undefined constant "App\Controllers\id_penanganan"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-12 01:36:31 --> Undefined variable $id_keluhan
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\PenangananModel.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(95): App\Models\PenangananModel->updatePenanganan(Array, '74')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 01:36:55 --> There is no data to update.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\PenangananModel.php(21): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(95): App\Models\PenangananModel->updatePenanganan(Array, '74')
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 01:37:37 --> There is no data to update.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\PenangananModel.php(21): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(95): App\Models\PenangananModel->updatePenanganan(Array, '74')
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 01:38:03 --> There is no data to update.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\PenangananModel.php(21): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(95): App\Models\PenangananModel->updatePenanganan(Array, '74')
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 01:38:23 --> There is no data to update.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\PenangananModel.php(21): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(95): App\Models\PenangananModel->updatePenanganan(Array, '74')
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 01:50:32 --> There is no data to update.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\PenangananModel.php(21): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(97): App\Models\PenangananModel->updatePenanganan(Array, '74')
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 01:55:34 --> There is no data to update.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\PenangananModel.php(22): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(97): App\Models\PenangananModel->updatePenanganan(Array, '74')
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 01:55:55 --> There is no data to update.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\PenangananModel.php(22): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(97): App\Models\PenangananModel->updatePenanganan(Array, '74')
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 01:57:45 --> There is no data to update.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\PenangananModel.php(22): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(98): App\Models\PenangananModel->updatePenanganan(Array, '74')
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 01:58:02 --> There is no data to update.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\PenangananModel.php(22): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(97): App\Models\PenangananModel->updatePenanganan(Array, '74')
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 02:16:51 --> Undefined property: App\Controllers\Penanganan::$penangananobat
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 02:17:36 --> Array to string conversion
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-12 02:21:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+ LIMIT 1' at line 4
+CRITICAL - 2022-02-12 02:21:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+ LIMIT 1' at line 4
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\ObatModel.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(115): App\Models\ObatModel->cekObatPenanganan(Array)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#9 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#10 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-12 02:22:49 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 312)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\Query.php(312): implode(',', Array)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\ObatModel.php(22): CodeIgniter\Model->__call('get', Array)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(115): App\Models\ObatModel->cekObatPenanganan(Array)
+#9 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#10 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#11 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-12 02:25:44 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(124): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-12 02:26:38 --> CodeIgniter\BaseModel::updateBatch(): Argument #1 ($set) must be of type ?array, string given, called in C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php on line 124
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(124): CodeIgniter\BaseModel->updateBatch('penanganan', Array, 'id_penanganan')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 02:28:40 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(124): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-12 02:30:27 --> There is no data to update.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Models\PenangananModel.php(22): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(96): App\Models\PenangananModel->updatePenanganan(Array, '74')
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#7 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-12 02:31:46 --> There is no data to update.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(97): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 02:32:12 --> There is no data to update.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(97): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 02:36:56 --> There is no data to update.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(97): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 02:44:02 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(NULL, NULL, 100)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(NULL, NULL, 100, false)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(125): CodeIgniter\BaseModel->updateBatch()
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-12 02:44:44 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(123): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-12 02:44:58 --> One or more rows submitted for batch updating is missing the specified index.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(2014): CodeIgniter\Database\BaseBuilder->setUpdateBatch(Array, '0')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, '0', 100)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, '0', 100, false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(123): CodeIgniter\BaseModel->updateBatch(Array, '0')
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 02:48:29 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(123): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-12 02:50:29 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(123): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-12 03:20:35 --> One or more rows submitted for batch updating is missing the specified index.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(2014): CodeIgniter\Database\BaseBuilder->setUpdateBatch(Array, 'id_obat')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, 'id_obat', 100)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, 'id_obat', 100, false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(123): CodeIgniter\BaseModel->updateBatch(Array, 'id_obat')
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 03:28:59 --> One or more rows submitted for batch updating is missing the specified index.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(2014): CodeIgniter\Database\BaseBuilder->setUpdateBatch(Array, 'id_obat')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, 'id_obat', 100)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, 'id_obat', 100, false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(124): CodeIgniter\BaseModel->updateBatch(Array, 'id_obat')
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 03:29:41 --> One or more rows submitted for batch updating is missing the specified index.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(2014): CodeIgniter\Database\BaseBuilder->setUpdateBatch(Array, 'id_obat')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, 'id_obat', 100)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, 'id_obat', 100, false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(124): CodeIgniter\BaseModel->updateBatch(Array, 'id_obat')
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 03:31:30 --> Undefined constant "App\Controllers\cek_obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-12 03:32:02 --> Undefined array key "nama_obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 120)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 03:32:50 --> Undefined variable $cek_obat
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 03:33:09 --> Undefined array key 2
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 03:34:21 --> Undefined array key 2
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 03:39:46 --> Undefined constant "App\Controllers\filtered"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-12 03:51:20 --> Undefined array key "nama_obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:14:26 --> Undefined variable $k
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 112)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:14:34 --> CodeIgniter\BaseModel::doProtectFields(): Argument #1 ($data) must be of type array, string given, called in C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php on line 799
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(799): CodeIgniter\BaseModel->doProtectFields('a1')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(117): CodeIgniter\BaseModel->insertBatch(Array)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 04:16:07 --> count(): Argument #1 ($value) must be of type Countable|array, int given
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(116): count(0)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:22:28 --> syntax error, unexpected identifier "var_dump"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-12 04:25:33 --> One or more rows submitted for batch updating is missing the specified index.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(2014): CodeIgniter\Database\BaseBuilder->setUpdateBatch(Array, 'id_obat')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, 'id_obat', 100)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, 'id_obat', 100, false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(131): CodeIgniter\BaseModel->updateBatch(Array, 'id_obat')
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 04:26:42 --> One or more rows submitted for batch updating is missing the specified index.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(2014): CodeIgniter\Database\BaseBuilder->setUpdateBatch(Array, 'id_obat')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, 'id_obat', 100)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, 'id_obat', 100, false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(139): CodeIgniter\BaseModel->updateBatch(Array, 'id_obat')
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 04:32:45 --> Undefined array key "id_obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:38:51 --> Undefined array key 0
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:41:06 --> One or more rows submitted for batch updating is missing the specified index.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(2014): CodeIgniter\Database\BaseBuilder->setUpdateBatch(Array, 'id_obat')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, 'id_obat', 100)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, 'id_obat', 100, false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(137): CodeIgniter\BaseModel->updateBatch(Array, 'id_obat')
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 04:41:15 --> Undefined array key 0
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:41:56 --> Undefined array key 0
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:47:29 --> One or more rows submitted for batch updating is missing the specified index.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(2014): CodeIgniter\Database\BaseBuilder->setUpdateBatch(Array, 'id_obat')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, 'id_obat', 100)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, 'id_obat', 100, false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(137): CodeIgniter\BaseModel->updateBatch(Array, 'id_obat')
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 04:49:39 --> Undefined array key 4
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:51:25 --> Undefined array key 4
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:52:01 --> Undefined array key 4
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:52:06 --> Undefined array key 4
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:52:44 --> Undefined array key 4
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 131)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:53:25 --> Undefined array key ""
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:56:56 --> One or more rows submitted for batch updating is missing the specified index.
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Database\BaseBuilder.php(2014): CodeIgniter\Database\BaseBuilder->setUpdateBatch(Array, 'id_obat')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, 'id_obat', 100)
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, 'id_obat', 100, false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(138): CodeIgniter\BaseModel->updateBatch(Array, 'id_obat')
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#6 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-12 04:57:50 --> Undefined array key "id_obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:58:24 --> Undefined array key "id_obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 04:58:56 --> Undefined array key "id_obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:00:30 --> Undefined array key "id_obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:01:02 --> Undefined array key "id_obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:02:59 --> Undefined array key 1
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 131)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:04:39 --> Undefined array key 3
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 131)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:06:08 --> Undefined array key 3
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:06:21 --> Undefined array key 3
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:07:11 --> Undefined array key 3
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:07:53 --> Undefined array key 3
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:10:42 --> Undefined array key 2
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:11:20 --> Undefined array key 3
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:12:38 --> Undefined array key 4
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:12:54 --> Undefined array key 4
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:13:12 --> Undefined array key 4
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 131)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:14:55 --> Undefined array key "id_obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:45:32 --> Undefined array key 4
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 136)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 05:53:55 --> Undefined array key "id_obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 123)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 06:21:40 --> Undefined array key 1
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 123)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 06:22:30 --> Undefined array key 1
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 123)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 06:35:17 --> syntax error, unexpected identifier "obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-12 06:35:22 --> syntax error, unexpected identifier "obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-12 06:35:36 --> syntax error, unexpected identifier "obat"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-12 06:35:48 --> Undefined constant "App\Controllers\v"
+#0 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-12 06:57:43 --> Undefined variable $var_dump
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 07:01:27 --> Undefined array key 3
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 07:04:57 --> array_filter(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(103): array_filter(NULL)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 07:05:51 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\sistemkesehatantaruna\app\Controllers\Penanganan.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(825): App\Controllers\Penanganan->update_penanganan()
+#2 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penanganan))
+#3 C:\xampp\htdocs\sistemkesehatantaruna\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemkesehatantaruna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

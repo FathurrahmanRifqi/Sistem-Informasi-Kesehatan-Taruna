@@ -12,6 +12,7 @@ class UsersModel extends Model
     {
          $this->join('roles','roles.id_role=users.id_role');
          $this->join('status_taruna','status_taruna.id_status=users.id_status');
+         $this->join('kelas','kelas.id_kelas=users.id_kelas');
          $this->where($data);
          return $this->get()->getRowArray();  
     }
@@ -31,6 +32,7 @@ class UsersModel extends Model
          $this->join('status_taruna','status_taruna.id_status=users.id_status');
          return $this->countAllResults();  
     }
+
 
     public function updateIsoman($data,$where)
     {

@@ -66,7 +66,7 @@ class Auth extends BaseController
 
             return redirect()->to('/'); //redirect dashboard
         }else{
-            $session->setFlashdata('msg', 'Invalid User');
+            $session->setFlashdata('msg', ' <strong>Invalid User!</strong> Periksa username dan password anda.');
             return view('login');
         }
     }

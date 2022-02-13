@@ -31,14 +31,35 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+
+// Dashboard
 $routes->get('/', 'Home::index');
 $routes->get('already_healthy/(:num)','Home::already_healthy/$1');
+$routes->get('already_healthy_by_askes/(:num)','Home::already_healthy_by_askes/$1');
 $routes->post('choose_isoman','Home::choose_isoman');
 
+// Auth
 $routes->get('login','Auth::index');
 $routes->post('do_login','Auth::login');
 
+// Keluhan
+$routes->get('keluhan_page','Keluhan::index');
+$routes->get('data_keluhan_page','Keluhan::data_keluhan');
+$routes->get('modal_beri_penanganan/(:num)','Keluhan::modal_beri_penanganan/$1');
 $routes->post('add_keluhan','Keluhan::add_keluhan');
+
+// Penanganan
+$routes->post('add_penanganan','Penanganan::add_penanganan');
+$routes->post('update_penanganan','Penanganan::update_penanganan');
+
+
+// Obat 
+$routes->get('hapus_obat/(:num)','Penanganan::hapus_obat/$1');
+
+
+
+
+
 
 /*
  * --------------------------------------------------------------------

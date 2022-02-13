@@ -26,7 +26,7 @@ class Home extends BaseController
     public function index() {  
         $session = session();  
         if(session('npm') == ""){
-            return redirect()->to('/auth');            
+            return redirect()->to('/login');            
         }else{
         
             $npm = session('npm');
@@ -50,9 +50,15 @@ class Home extends BaseController
                 'users' => $getUser,
                 'keluhan' => $getKeluhanUser,
                 'penangananmodel' => $this->penangananmodel,
-                'obatmodel' => $this->obatmodel
+                'obatmodel' => $this->obatmodel,
+                'master' => view('templates/master'),
+                'footer' => view('templates/footer'),
+                'sidebar' => view('templates/sidebar',array('page' => 'Dashboard','users' => $getUser)),
+                'navbar' => view('templates/navbar',array('users' => $getUser)),
             ];
-            return view('dashboard',$data);
+
+
+            return view('signin',$data);
         }
     } 
 
@@ -74,6 +80,28 @@ class Home extends BaseController
 
             
             return redirect()->to('/'); //redirect dashboard
+
+        }
+    }
+
+    public function already_healthy_by_askes($id_keluhan = null){
+        $session = session();  
+        if(session('npm') == ""){
+            return redirect()->to('/auth');            
+        }else{
+        
+            $npm = session('npm');
+            $whereUser = array('keluhan.npm'=>$npm,'id_keluhan'=>$id_keluhan);
+
+            $deleteKeluhanUser = $this->keluhanmodel->deleteKeluhanUser($whereUser);
+            if($deleteKeluhanUser){
+                $session->setFlashdata('msg', 'Diagnosa sembuh berhasil');
+            }else{
+                $session->setFlashdata('msg', 'Gagal proses data');
+            }
+
+            
+            return redirect()->to('data_keluhan_page'); //redirect dashboard
 
         }
     }
