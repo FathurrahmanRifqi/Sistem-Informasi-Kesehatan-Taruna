@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 30, 2022 at 03:59 PM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 8.0.12
+-- Generation Time: Feb 13, 2022 at 12:04 PM
+-- Server version: 10.4.19-MariaDB
+-- PHP Version: 8.0.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -120,7 +120,7 @@ CREATE TABLE `keluhan` (
 --
 
 INSERT INTO `keluhan` (`id_keluhan`, `keluhan`, `deskripsi_keluhan`, `id_kategori`, `npm`, `created_at`) VALUES
-(63, 'asd', 'asd', 1, 1918101541, '2022-01-29 16:06:50');
+(78, 'Meriang', 'Merindukan kasih sayang', 2, 1918101504, '2022-02-11 22:09:32');
 
 --
 -- Triggers `keluhan`
@@ -150,6 +150,13 @@ CREATE TABLE `obat` (
   `keterangan_obat` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `obat`
+--
+
+INSERT INTO `obat` (`id_obat`, `id_penanganan`, `nama_obat`, `keterangan_obat`) VALUES
+(93, 74, 'Panadol Kelapss', '3 x 1 stlh makan');
+
 -- --------------------------------------------------------
 
 --
@@ -160,10 +167,17 @@ CREATE TABLE `penanganan` (
   `id_penanganan` int(11) NOT NULL,
   `npm` int(11) NOT NULL,
   `id_keluhan` int(11) NOT NULL,
-  `keterangan` text NOT NULL,
+  `keterangan` text NOT NULL DEFAULT '-',
   `tindak_lanjut` text DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `penanganan`
+--
+
+INSERT INTO `penanganan` (`id_penanganan`, `npm`, `id_keluhan`, `keterangan`, `tindak_lanjut`, `created_at`) VALUES
+(74, 1918101504, 78, 'diantar oleh supir', 'Ke RS CISEENG', '2022-02-13 00:57:27');
 
 -- --------------------------------------------------------
 
@@ -225,9 +239,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`npm`, `nama`, `username`, `password`, `id_status`, `id_kelas`, `id_role`, `isoman`) VALUES
-(1918101504, 'Fathurrahman Rifqi Azzami', 'fathurrahman.rifqi', '5f4dcc3b5aa765d61d8327deb882cf99', 1, 15, 1, 0),
+(1918101504, 'Fathurrahman Rifqi Azzami', 'fathurrahman.rifqi', '5f4dcc3b5aa765d61d8327deb882cf99', 2, 15, 1, 0),
 (1918101514, 'Hilya Tazkia Kamalia', 'hilya.tazkia', '5f4dcc3b5aa765d61d8327deb882cf99', 1, 15, 2, 0),
-(1918101541, 'guest', 'guest', '5f4dcc3b5aa765d61d8327deb882cf99', 2, 1, 1, 0);
+(1918101541, 'guest', 'guest', '5f4dcc3b5aa765d61d8327deb882cf99', 1, 1, 1, 0);
 
 --
 -- Indexes for dumped tables
@@ -327,25 +341,25 @@ ALTER TABLE `kategori_keluhan`
 -- AUTO_INCREMENT for table `kelas`
 --
 ALTER TABLE `kelas`
-  MODIFY `id_kelas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id_kelas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `keluhan`
 --
 ALTER TABLE `keluhan`
-  MODIFY `id_keluhan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
+  MODIFY `id_keluhan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
 
 --
 -- AUTO_INCREMENT for table `obat`
 --
 ALTER TABLE `obat`
-  MODIFY `id_obat` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_obat` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=97;
 
 --
 -- AUTO_INCREMENT for table `penanganan`
 --
 ALTER TABLE `penanganan`
-  MODIFY `id_penanganan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id_penanganan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=79;
 
 --
 -- AUTO_INCREMENT for table `roles`
