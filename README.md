@@ -17,6 +17,10 @@ Website ini diperuntukan untuk mempermudah pendataan kondisi kesehatan taruna Po
 
 ## Autentikasi ##
 - Masuk ke halaman login.
+- Untuk akun Taruna bisa menggunakan akun : fathurrahman.rifqi
+- Untuk akun Taruna Asisten Kesehatan bisa menggunakan akun : hilya.tazkia
+- Setiap akun memiliki password : password 
+- Pengguna bisa melakukan remember me agar tidak perlu menginput username dan password lagi
 
 ## Fitur ##
 1. Dashboard
@@ -35,13 +39,11 @@ Website ini diperuntukan untuk mempermudah pendataan kondisi kesehatan taruna Po
    - Export data kesehatan dan isoman dalam bentuk PDF.
    - Mengetahui waktu update data.
    - Mengetahui jumlah taruna yang memiliki keluhan kesehatan yang dikelompokkan berdasarkan kategori keluhan kesehatannya (ringan, sedang, dan berat).
-   - Input infografis
    
    Taruna
    - Input data kesehatan.
    - View data kesehatan.
    - View data isoman.
-   - View infografis
 
 3. Laporan keluhan kesehatan dan isoman
    Laporan terdiri atas:
