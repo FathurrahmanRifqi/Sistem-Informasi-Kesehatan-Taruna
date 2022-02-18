@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 13, 2022 at 12:04 PM
+-- Generation Time: Feb 18, 2022 at 04:45 AM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.7
 
@@ -120,7 +120,7 @@ CREATE TABLE `keluhan` (
 --
 
 INSERT INTO `keluhan` (`id_keluhan`, `keluhan`, `deskripsi_keluhan`, `id_kategori`, `npm`, `created_at`) VALUES
-(78, 'Meriang', 'Merindukan kasih sayang', 2, 1918101504, '2022-02-11 22:09:32');
+(78, 'Meriang', 'Badan pusing dan lemas', 2, 1918101504, '2022-02-18 03:44:40');
 
 --
 -- Triggers `keluhan`
@@ -155,7 +155,8 @@ CREATE TABLE `obat` (
 --
 
 INSERT INTO `obat` (`id_obat`, `id_penanganan`, `nama_obat`, `keterangan_obat`) VALUES
-(93, 74, 'Panadol Kelapss', '3 x 1 stlh makan');
+(93, 74, 'Panadol C', '3 x 1 sehari setelah makan'),
+(97, 74, 'Vitamin C', '1 x 1 sehari setelah makan');
 
 -- --------------------------------------------------------
 
@@ -177,7 +178,7 @@ CREATE TABLE `penanganan` (
 --
 
 INSERT INTO `penanganan` (`id_penanganan`, `npm`, `id_keluhan`, `keterangan`, `tindak_lanjut`, `created_at`) VALUES
-(74, 1918101504, 78, 'diantar oleh supir', 'Ke RS CISEENG', '2022-02-13 00:57:27');
+(74, 1918101504, 78, 'Tidak ada', 'Istirahat dan Minum Obat', '2022-02-18 03:42:42');
 
 -- --------------------------------------------------------
 
@@ -353,7 +354,7 @@ ALTER TABLE `keluhan`
 -- AUTO_INCREMENT for table `obat`
 --
 ALTER TABLE `obat`
-  MODIFY `id_obat` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=97;
+  MODIFY `id_obat` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=98;
 
 --
 -- AUTO_INCREMENT for table `penanganan`

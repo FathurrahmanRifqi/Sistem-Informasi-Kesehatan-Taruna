@@ -30,14 +30,7 @@
 
           <?php if ($users['id_role'] == "2"){ ?>
           
-          <li class="nav-item">
-          <a class="nav-link <?php echo ($page == "Infografis" ? "active" : '' ); ?> " href="<?= 'keluhan_page' ?>">
-            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="fa fa-coffee text-success text-sm opacity-10"></i>
-            </div>
-            <span class="nav-link-text ms-1">Input Infografis</span>
-          </a>
-        </li>
+          
 
         <li class="nav-item mt-3">
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Laporan Kesehatan</h6>
@@ -50,14 +43,7 @@
             <span class="nav-link-text ms-1">Data Keluhan Taruna</span>
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link " href="../pages/profile.html">
-            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="fa fa-table text-success text-sm opacity-10"></i>
-            </div>
-            <span class="nav-link-text ms-1">Data Infografis Kesehatan</span>
-          </a>
-        </li>
+      
 
         <?php } ?>
       
@@ -66,14 +52,7 @@
         <li class="nav-item mt-3">
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Akun Saya</h6>
         </li>
-        <li class="nav-item">
-          <a class="nav-link " href="../pages/profile.html">
-            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="ni ni-single-02 text-dark text-sm opacity-10"></i>
-            </div>
-            <span class="nav-link-text ms-1">Profil</span>
-          </a>
-        </li>
+       
         
         <li class="nav-item">
           <a class="nav-link " href="<?= 'auth/logout' ?>">
